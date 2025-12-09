@@ -1,0 +1,151 @@
+//fill in with changes to gifs
+//and backgrounds
+//and maybe music
+function showGif() {
+  document.getElementById("unemployed").classList.add("translucent");
+  document.getElementById("two").classList.remove("gone");
+  document.getElementById("candy").classList.add("bg");
+  document.getElementById("candy").classList.remove("bg2");
+  document.getElementById("unemployed").classList.add("info");
+  document.getElementById("info").classList.remove("gone");
+  document.getElementById("info2").classList.add("gone");
+  document.getElementById("info3").classList.add("gone");
+  document.getElementById("info4").classList.add("gone");
+  document.getElementById("info5").classList.add("gone");
+  document.getElementById("info6").classList.add("gone");
+  document.getElementById("three").classList.add("gone");
+  document.getElementById("five").classList.add("gone");
+  document.getElementById("four").classList.add("gone");
+  document.getElementById("seven").classList.add("gone");
+  document.getElementById("six").classList.add("gone");
+  //pause all other sounds first
+  document.getElementById("jap").pause();
+  document.getElementById("happy").pause();
+  document.getElementById("gods").pause();
+  document.getElementById("doorbell").pause();
+  document.getElementById("auction").pause();
+  document.getElementById("taki").play();
+}
+function showGif2() {
+  document.getElementById("manager").classList.add("translucent");
+  document.getElementById("three").classList.remove("gone");
+  document.getElementById("candy").classList.add("bg");
+  document.getElementById("candy").classList.remove("bg2");
+  document.getElementById("manager").classList.add("info2");
+  document.getElementById("info2").classList.remove("gone");
+  document.getElementById("info").classList.add("gone");
+  document.getElementById("info3").classList.add("gone");
+  document.getElementById("info4").classList.add("gone");
+  document.getElementById("info5").classList.add("gone");
+  document.getElementById("info6").classList.add("gone");
+  document.getElementById("two").classList.add("gone");
+  document.getElementById("four").classList.add("gone");
+  document.getElementById("five").classList.add("gone");
+  document.getElementById("six").classList.add("gone");
+  document.getElementById("seven").classList.add("gone");
+  document.getElementById("happy").pause();
+  document.getElementById("gods").pause();
+  document.getElementById("doorbell").pause();
+  document.getElementById("auction").pause();
+  document.getElementById("taki").pause();
+  document.getElementById("jap").play();
+}
+function showGif3() {
+  document.getElementById("peon").classList.add("translucent");
+  document.getElementById("four").classList.remove("gone");
+  document.getElementById("candy").classList.add("bg");
+  document.getElementById("candy").classList.remove("bg2");
+  document.getElementById("peon").classList.add("info3");
+  document.getElementById("info3").classList.remove("gone");
+  document.getElementById("info").classList.add("gone");
+  document.getElementById("info2").classList.add("gone");
+  document.getElementById("info4").classList.add("gone");
+  document.getElementById("info5").classList.add("gone");
+  document.getElementById("info6").classList.add("gone");
+  document.getElementById("two").classList.add("gone");
+  document.getElementById("three").classList.add("gone");
+  document.getElementById("five").classList.add("gone");
+  document.getElementById("six").classList.add("gone");
+  document.getElementById("seven").classList.add("gone");
+  document.getElementById("gods").pause();
+  document.getElementById("doorbell").pause();
+  document.getElementById("auction").pause();
+  document.getElementById("taki").pause();
+  document.getElementById("jap").pause();
+  document.getElementById("happy").play();
+}
+function showGif6() {
+  document.getElementById("yellow").classList.add("translucent");
+  document.getElementById("five").classList.remove("gone");
+  document.getElementById("candy").classList.add("bg2");
+  document.getElementById("candy").classList.remove("bg");
+  document.getElementById("yellow").classList.add("info4");
+  document.getElementById("info4").classList.remove("gone");
+  document.getElementById("info").classList.add("gone");
+  document.getElementById("info2").classList.add("gone");
+  document.getElementById("info3").classList.add("gone");
+  document.getElementById("info5").classList.add("gone");
+  document.getElementById("info6").classList.add("gone");
+  document.getElementById("two").classList.add("gone");
+  document.getElementById("three").classList.add("gone");
+  document.getElementById("four").classList.add("gone");
+  document.getElementById("six").classList.add("gone");
+  document.getElementById("seven").classList.add("gone");
+  document.getElementById("happy").pause();
+  document.getElementById("doorbell").pause();
+  document.getElementById("auction").pause();
+  document.getElementById("taki").pause();
+  document.getElementById("jap").pause();
+  document.getElementById("gods").play();
+}
+function showGif7() {
+  document.getElementById("planet").classList.add("translucent");
+  document.getElementById("six").classList.remove("gone");
+  document.getElementById("candy").classList.add("bg2");
+  document.getElementById("candy").classList.remove("bg");
+  document.getElementById("planet").classList.add("info5");
+  document.getElementById("info5").classList.remove("gone");
+  document.getElementById("info").classList.add("gone");
+  document.getElementById("info2").classList.add("gone");
+  document.getElementById("info3").classList.add("gone");
+  document.getElementById("info4").classList.add("gone");
+  document.getElementById("info6").classList.add("gone");
+  document.getElementById("two").classList.add("gone");
+  document.getElementById("three").classList.add("gone");
+  document.getElementById("four").classList.add("gone");
+  document.getElementById("five").classList.add("gone");
+  document.getElementById("seven").classList.add("gone");
+  document.getElementById("happy").pause();
+  document.getElementById("gods").pause();
+  document.getElementById("auction").pause();
+  document.getElementById("taki").pause();
+  document.getElementById("jap").pause();
+  document.getElementById("doorbell").play();
+}
+
+function showGif8() {
+  document.getElementById("tape").classList.add("translucent");
+  document.getElementById("seven").classList.remove("gone");
+  document.getElementById("candy").classList.add("bg2");
+  document.getElementById("candy").classList.remove("bg");
+  document.getElementById("tape").classList.add("info6");
+  document.getElementById("info6").classList.remove("gone");
+  document.getElementById("info").classList.add("gone");
+  document.getElementById("info2").classList.add("gone");
+  document.getElementById("info3").classList.add("gone");
+  document.getElementById("info4").classList.add("gone");
+  document.getElementById("info5").classList.add("gone");
+  document.getElementById("two").classList.add("gone");
+  document.getElementById("three").classList.add("gone");
+  document.getElementById("four").classList.add("gone");
+  document.getElementById("five").classList.add("gone");
+  document.getElementById("six").classList.add("gone");
+  document.getElementById("happy").pause();
+  document.getElementById("gods").pause();
+  document.getElementById("doorbell").pause();
+  document.getElementById("taki").pause();
+  document.getElementById("jap").pause();
+  document.getElementById("auction").play();
+}
+
+// document.getElementById("gif").classList.add("images/enabody.GIF");
